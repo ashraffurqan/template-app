@@ -28,7 +28,7 @@ export default async function Home() {
 
        <button
         className='bg-indigo-500 h-10 pl-4 pr-4 rounded-full mt-10  hover:bg-slate-600 text-black   '>
-          Add TO Cart</button>
+          Add TO Cartt</button>
       </div>
 
 })}
