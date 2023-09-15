@@ -14,7 +14,7 @@ export default async function Home() {
   return (
     <div className='grid grid-cols-3  p-4 gap-4' > 
     {data.map((item:any,i:any)=>{
-      return <div >
+      return <div key={i} >
      
      <PortableText
   value={[item.description [0]]}
