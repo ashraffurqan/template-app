@@ -4,7 +4,7 @@ import product from "../../../../sanity/product";
 import {v4  as uuid} from "uuid"
 import {cookies} from "next/dist/client/components/headers"
 
-export const Get=async(request:Request)=>{
+export const GET=async(request:Request)=>{
 try{
     const res=await db.select().from(CartTable)
     console.log("res",res)
